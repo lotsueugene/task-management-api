@@ -1,5 +1,5 @@
 const { db, Project, Task } = require('./setup');
-const bcrypt = require('bcryptjs');
+
 // Sample project data
 
 // Sample users (for when User model is added in step 5)
