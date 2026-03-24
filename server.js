@@ -331,7 +331,7 @@ app.post('/api/login', async (req, res) => {
     }
 });
 
-
+// POST /api/logout - User logout
 app.post('/api/logout', (req, res) => {
     req.session.destroy((err) => {
         if(err) {
