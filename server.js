@@ -270,10 +270,10 @@ app.post('/api/register', async (req, res) => {
         const newUser = await User.create({
             username,
             email,
-            password: hashedPassword  // Store the hash, not the original password
+            password: hashedPassword  // Store the hash
         });
         
-        // Return success (don't send back the password)
+        // Return success 
         res.status(201).json({
         message: 'User registered successfully',
         user: {
