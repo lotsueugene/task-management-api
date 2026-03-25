@@ -43,6 +43,11 @@ A REST API for managing projects and tasks.
 - `PUT /api/tasks/:id` - Update task
 - `DELETE /api/tasks/:id` - Delete task
 
+### Register, Login, and Logout 
+- `GET /api/register` - Register an account
+- `GET /api/login` - Login
+- `POST /api/logout` - Logout
+
 ## Project Structure
 
 ```plaintext
